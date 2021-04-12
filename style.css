@@ -1,0 +1,47 @@
+:root{
+    --background-color: #E6EFF5;
+    --teal-color: #2AB3B1;
+    --green-color: #C0DF33;
+    --white: #FFF;
+}
+
+html{
+     background-color: var(--background-color);
+    color: var(--teal-color);
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+.card-single{
+    max-width: 635px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 40px;
+
+    z-index: 99;
+}
+
+.page-title{
+    color: var(--teal-color);
+}
+
+.page-subtitle{
+    color: var(--green-color);
+}
