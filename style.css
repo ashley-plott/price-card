@@ -188,11 +188,24 @@ footer {
     list-style: none;
 }
 
+footer{
+    color: black;
+}
+
+footer a{
+    color: black;
+}
+
 @media (max-width: 540px) {
     body{
         padding: 30px;
         overflow-y: scroll;
     }
+
+    footer{
+        padding: 30px;
+    }
+
     .sections{
         display: block;
     }
